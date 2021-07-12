@@ -1,0 +1,785 @@
+
+html, body {
+  font-family: var(--font)
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+code {
+  font-family: var(--mono);
+}
+
+table {
+  box-shadow: 0 2px 6px 0 var(--contrast) !important;
+}
+
+input[type='checkbox'], input[type='radio'] {
+  vertical-align: baseline !important;
+}
+
+button {
+  background: var(--button) !important;
+  color: var(--primary) !important;
+  text-transform: uppercase !important;
+}
+
+div.tools a,
+.checkall_box + label,
+a,
+a:link {
+  color: var(--accent) !important;
+}
+
+::selection,
+::-webkit-selection,
+::-moz-selection {
+  background-color: var(--selBg) !important;
+  color: var(--selFg);
+}
+
+#topmenu a,
+.submenu a {
+  color: var(--fg) !important;
+  font-weight: normal;
+}
+
+#topmenu a:hover,
+.submenu a:hover {
+  text-shadow: none !important;
+  color: var(--selFg) !important;
+}
+
+.database a,
+.table a {
+  color: var(--primary) !important;
+}
+
+ul#topmenu2 a {
+  color: var(--primary) !important;
+  font-weight: normal;
+}
+
+.selectallarrow {
+  filter: invert(1);
+}
+
+textarea {
+  font-family: Menlo, Consolas, 'Fira Code', monospace;
+  font-size: 12px;
+  background: var(--dbg);
+  color: var(--fg);
+}
+
+li.fast_filter span {
+  color: var(--accent) !important;
+}
+
+#serverinfo {
+  background: var(--lbg);
+  text-shadow: none;
+}
+
+#pma_navigation_collapser {
+  background: var(--lbg);
+  border: none;
+  color: var(--fg);
+  z-index: 0;
+}
+
+#pma_navigation_tree li.activePointer {
+  background: var(--lbg);
+}
+
+ul#topmenu,
+ul#topmenu2,
+ul.tabs,
+#topmenu a,
+ul#topmenu > li,
+.menucontainer {
+  background: var(--lbg);
+  text-shadow: none;
+  border: none;
+  color: var(--fg);
+  margin-top: 0;
+}
+
+ul#topmenu > li > a:hover,
+ul#topmenu > li > .tabactive {
+  background: var(--lbg) !important;
+  text-shadow: 0 0 1px white;
+}
+
+ul#topmenu2 a,
+ul#topmenu2 a.tab:hover,
+ul#topmenu2 a.tabactive {
+  background: var(--lbg) !important;
+  border-radius: 0;
+  border: none;
+  margin-top: 0;
+  height: 15px;
+}
+
+ul#topmenu2 a.tabactive,
+ul#topmenu2 a.tab:hover {
+  text-shadow: 0 0 1px var(--lbg);
+}
+
+h2 {
+  text-shadow: none;
+  color: var(--ttl);
+}
+
+.exportoptions h3,
+.importoptions h3 {
+  border: none;
+}
+
+h1.notice,
+div.notice,
+p.notice,
+.ajax_notification {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  color: var(--fg);
+  background: var(--dbg);
+}
+
+#maincontainer,
+#page_content {
+  background: var(--bg);
+  color: var(--fg);
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+fieldset legend,
+fieldset,
+.preview_sql,
+div.tools,
+.tblFooters {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  background: var(--bg);
+  color: var(--fg);
+  width: 100%;
+  padding-left: 0;
+}
+
+table tr th,
+table tr,
+table td,
+thead,
+div#page_content div#tableslistcontainer table.data,
+#div_mysql_charset_collations table th,
+#div_mysql_charset_collations table td {
+  background: var(--lbg) !important;
+  color: var(--fg);
+  text-shadow: none;
+  border: none;
+  padding: 5px;
+}
+
+table tr:nth-child(2n) th,
+table tr:nth-child(2n) td {
+  background: var(--bg) !important;
+}
+
+th {
+  font-size: 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--border) !important;
+  font-weight: normal;
+}
+
+table tbody:first-of-type tr:not(.nopointer):hover,
+table tbody:first-of-type tr:not(.nopointer):hover th,
+.hover:not(.nopointer) {
+  color: var(--selFg) !important;
+}
+
+table {
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+td.marked:not(.nomarker),
+table tr.marked:not(.nomarker) td,
+table tbody:first-of-type tr.marked:not(.nomarker) th,
+table tr.marked:not(.nomarker) {
+  background: var(--lbg);
+}
+
+.CodeMirror-scroll,
+.CodeMirror-sizer,
+.CodeMirror-gutter,
+.CodeMirror-gutters,
+.CodeMirror-linenumber {
+  border: none;
+  font-size: 15px;
+}
+
+fieldset fieldset,
+#fieldset_add_user_login div.item {
+  background: var(--lbg);
+  border: none;
+}
+
+div.success,
+div.notice,
+div.error,
+.error {
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  color: var(--fg);
+}
+
+div.success {
+  border-left: 5px solid var(--green);
+  background: var(--lbg);
+}
+
+div.error {
+  border-left: 5px solid var(--error);
+  background: var(--lbg);
+}
+
+#pma_navigation_content {
+  background: var(--bg);
+  box-shadow: 2px 0 9px 0px var(--border);
+  color: var(--fg);
+}
+
+#pma_navigation_tree a {
+  color: var(--fg);
+}
+
+#pma_navigation_tree li.selected {
+  background: var(--selBg) !important;
+}
+
+.group,
+.group h2 {
+  border: none;
+  box-shadow: none;
+  text-shadow: none;
+  border-radius: 0;
+  background: var(--bg);
+}
+
+.group h2 {
+  color: var(--ttl);
+}
+
+#pma_navigation_resizer {
+  background: var(--bg);
+}
+
+#selflink {
+  visibility: hidden;
+}
+
+span {
+  color: var(--fg);
+}
+
+#pma_console .toolbar {
+  background: var(--lbg);
+  border: none;
+  height: 20px;
+  text-transform: uppercase;
+}
+
+#pma_console .message .action_content {
+  background: var(--button);
+  color: var(--fg);
+  border: 1px solid var(--border);
+}
+
+#pma_console .message .text {
+  background: var(--excl);
+  color: var(--fg);
+}
+
+#pma_console .message .action_content .action {
+  font-family: var(--font);
+  text-transform: uppercase;
+}
+
+#pma_console .message span.action:hover,
+#pma_console .toolbar .button:hover,
+#pma_console .switch_button:hover,
+#pma_console .toolbar .button.active {
+  background: var(--lbg);
+}
+
+#pma_console .content {
+  background: var(--dbg);
+  border: none;
+  color: var(--fg);
+}
+
+.CodeMirror-scroll,
+.CodeMirror-sizer,
+.CodeMirror-gutter,
+.CodeMirror-gutters,
+.CodeMirror-linenumber {
+  background: var(--dbg);
+}
+
+#pma_console .message,
+#pma_console .query_input {
+  color: var(--fg);
+}
+
+select,
+select[multiple],
+#select_seriesColumn,
+#select_valueColumn {
+  background: var(--dbg);
+  border: none;
+  border-radius: 0;
+  height: auto;
+  color: var(--fg);
+}
+
+#select_seriesColumn[disabled],
+#select_valueColumn[disabled] {
+  background: var(--disabled);
+}
+
+select:focus,
+input[type=submit],
+input[type=button],
+input.button,
+input[type=submit]:hover,
+input[type=button]:hover,
+.exportoptions #buttonGo,
+.importoptions #buttonGo {
+  height: auto;
+  background: var(--button);
+  border: none;
+  border-radius: 0;
+  text-shadow: none;
+  color: var(--primary);
+  text-transform: uppercase;
+}
+
+div#tablefieldscontainer select {
+  background: var(--lbg);
+}
+
+#fieldset_user_priv div.item select {
+  background: var(--dbg);
+  border: none;
+  border-radius: 0;
+  text-shadow: none;
+  color: var(--fg);
+  height: auto;
+}
+
+.pma_quick_warp .drop_button,
+.pma_quick_warp .drop_list:hover .drop_button,
+.pma_quick_warp .drop_list li,
+.pma_quick_warp .drop_list ul {
+  background: var(--dbg);
+  border: 4px solid;
+  border-color: var(--dbg);
+  border-radius: 0;
+  color: var(--fg);
+  box-shadow: none;
+}
+
+input[type=text]:hover,
+input[type=password]:hover,
+input[type=number]:hover,
+input[type=date]:hover,
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=date],
+input[type=text]:hover,
+input[type=text]:focus,
+input[type=password]:hover,
+input[type=password]:focus,
+input[type=number]:hover,
+input[type=number]:focus,
+input[type=date]:hover,
+input[type=date]:focus {
+  background: var(--bg);
+  box-shadow: none;
+  text-shadow: none;
+  height: auto;
+  font-size: 12px;
+  color: var(--fg) !important;
+  border: none;
+  border-bottom: 1px solid var(--accent);
+  border-radius: 0;
+}
+
+button[type=submit]:not(.mult_submit),
+input[type=reset],
+input[name=submit_reset],
+#sectionlinks a,
+.buttonlinks a,
+a.button {
+  background: var(--button);
+  box-shadow: none;
+  text-shadow: none;
+  height: auto;
+  color: var(--fg) !important;
+  border: none;
+}
+
+button[type=submit]:not(.mult_submit):hover,
+input[type=reset]:hover,
+input[name=submit_reset]:hover,
+input.button:hover,
+#sectionlinks a:hover {
+  background: var(--hl);
+  color: var(--selFg);
+  box-shadow: none;
+  text-shadow: none;
+  height: auto;
+  border: none;
+}
+
+li.fast_filter input {
+  background: var(--lbg);
+}
+
+code.sql,
+div.sqlvalidate {
+  background: var(--lbg);
+  font-size: 14px;
+}
+
+.result_query div.sqlOuter {
+  background: var(--lbg);
+}
+
+#sectionlinks {
+  border: none;
+  border-radius: 0;
+  background: var(--lbg);
+  box-shadow: none;
+}
+
+.tblHeaders {
+  color: var(--fg);
+  background: var(--lbg);
+  border: none;
+  text-shadow: none;
+}
+
+th.print_ignore,
+td.print_ignore {
+  background: var(--lbg) !important;
+}
+
+#canvas,
+#name-panel,
+.side-menu {
+  background: var(--lbg) !important;
+  border: none;
+}
+
+#osn_tab {
+  background: var(--lbg);
+}
+
+.pmd_tab {
+  border: 1px solid;
+  border-color: var(--fg);
+}
+
+a.M_butt_Selected_down_IE:hover,
+a.M_butt_Selected_down:hover,
+a.M_butt:hover {
+  background: var(--lbg);
+}
+
+.ui-widget {
+  font-family: var(--font);
+}
+
+.ui-widget-overlay.ui-front {
+  background-color: black;
+  opacity: 0.7;
+}
+
+.ui-dialog .ui-dialog-content,
+.ui-widget.ui-widget-content,
+.ui-dialog .ui-dialog-buttonpane,
+.ui-draggable .ui-dialog-titlebar {
+  border: none;
+  border-radius: 0;
+  background: var(--bg);
+}
+
+.draggable span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.ui-widget.ui-widget-content {
+  box-shadow: 2px 2px 11px 0 var(--border);
+}
+
+.ui-widget-overlay {
+  background: var(--dbg);
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+  background: var(--dbg);
+  border: none;
+  border-radius: 0;
+  color: var(--fg);
+}
+
+.tooltip,
+.ui-widget-shadow {
+  box-shadow: none;
+  text-shadow: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background: var(--border) !important;
+}
+
+em {
+  color: var(--keyword) !important;
+}
+
+td[data-type='int'] span {
+  color: var(--number) !important;
+}
+
+.cEdit .edit_area {
+  background: var(--lbg);
+  color: var(--fg);
+  border: var(--border);
+}
+
+.cEdit .cell_edit_hint {
+  color: var(--primary);
+}
+
+.ui-widget-content {
+  color: var(--fg);
+}
+
+#pma_console .message {
+  border: none;
+}
+
+.CodeMirror-code {
+  font-family: var(--mono);
+}
+
+#inline_editor_outer .CodeMirror {
+  min-height: 12em;
+}
+
+.cm-s-default .cm-header {color: var(--accent);}
+
+.cm-s-default .cm-quote {color: var(--string);}
+
+.cm-negative {color: var(--error);}
+
+.cm-positive {color: var(--green);}
+
+.cm-header, .cm-strong {font-weight: bold;}
+
+.cm-em {font-style: italic;}
+
+.cm-link {text-decoration: underline;}
+
+.cm-strikethrough {text-decoration: line-through;}
+
+.cm-s-default .cm-keyword {color: var(--keyword);}
+
+code .cm-s-default .cm-keyword:before {content: '';display: block;}
+
+.cm-s-default .cm-atom {color: var(--attribute);}
+
+.cm-s-default .cm-number {color: var(--number);}
+
+.cm-s-default .cm-def {color: var(--ttl);}
+
+.cm-s-default .cm-variable,
+.cm-s-default .cm-punctuation,
+.cm-s-default .cm-property,
+.cm-s-default .cm-operator { color: var(--operator);}
+
+.cm-s-default .cm-variable-2 {color: var(--variable);}
+
+.cm-s-default .cm-variable-3, .cm-s-default .cm-type {color: var(--type);}
+
+.cm-s-default .cm-comment {color: var(--comment);}
+
+.cm-s-default .cm-string {color: var(--string);}
+
+.cm-s-default .cm-string-2 {color: var(--string);}
+
+.cm-s-default .cm-meta {color: var(--comment);}
+
+.cm-s-default .cm-qualifier {color: var(0 --comment);}
+
+.cm-s-default .cm-builtin {color: var(--function);}
+
+.cm-s-default .cm-bracket {color: var(--operator);}
+
+.cm-s-default .cm-tag {color: var(--tag);}
+
+.cm-s-default .cm-attribute {color: var(--attribute);}
+
+.cm-s-default .cm-hr {color: var(--comment);}
+
+.cm-s-default .cm-link {color: var(--ttl);}
+
+.cm-s-default .cm-error {color: var(--error);}
+
+.cm-invalidchar {color: var(--error);}
+
+.CodeMirror-composing { border-bottom: 2px solid; }
+
+.CodeMirror-cursor {
+  border-color: var(--accent);
+  border-width: 2px;
+  /*transform: translateY(5px);*/
+}
+
+/* Default styles for common addons */
+
+div.CodeMirror span.CodeMirror-matchingbracket {color: var(--ttl);}
+
+div.CodeMirror span.CodeMirror-nonmatchingbracket {color: var(--error);}
+
+.CodeMirror-matchingtag { background: rgba(255, 150, 0, .3); }
+
+.CodeMirror-activeline-background {background: var(--lbg);}
+
+span.cm-keyword, span.cm-statement-verb {
+  color: var(--keyword);
+}
+
+span.cm-variable {
+  color: var(--variable);
+}
+
+span.cm-comment {
+  color: var(--comment);
+}
+
+span.cm-mysql-string {
+  color: var(--string);
+}
+
+span.cm-operator {
+  color: var(--operator);
+}
+
+span.cm-mysql-word {
+  color: var(--fg);
+}
+
+span.cm-builtin {
+  color: var(--function);
+}
+
+span.cm-variable-2 {
+  color: var(--variable);
+}
+
+span.cm-variable-3 {
+  color: var(--attribute);
+}
+
+span.cm-separator {
+  color: var(--operator);
+}
+
+span.cm-number {
+  color: var(--number);
+}
+
+.autocomplete-column-hint {
+  color: var(--comment);
+}
+
+.insertRowTable .CodeMirror {
+  border: none;
+}
+
+.navigation_separator {
+  color: var(--primary);
+  text-shadow: none;
+}
+
+.config-form ul.tabs {
+  background-color: var(--bg);
+}
+
+.config-form ul.tabs li a {
+  background-color: var(--lbg);
+  border-color: var(--bg);
+  text-shadow: none;
+  color: var(--fg) !important;
+}
+
+.config-form ul.tabs li:hover a {
+  background-color: var(--hl);
+  border-color: var(--hl);
+  text-shadow: none;
+  color: var(--fg) !important;
+}
+
+.config-form ul.tabs li.active a {
+  background-color: var(--hl);
+  border-color: var(--hl);
+  color: var(--accent) !important;
+}
+
+.config-form fieldset p {
+  background-color: var(--dbg);
+}
+
+.config-form fieldset th, .config-form fieldset td {
+  border: none;
+}
+
+.config-form fieldset th small {
+  color: var(--primary);
+}
+
+.config-form input[type='text'], .config-form input[type='password'], .config-form input[type='number'], .config-form select, .config-form textarea {
+  border: none;
+  border-bottom: 1px solid var(--hl);
+}
+
+.config-form input[type='text']:focus,
+.config-form input[type='password']:focus,
+.config-form input[type='number']:focus,
+.config-form select:focus,
+.config-form textarea:focus {
+  border: none;
+  background: none;
+  border-bottom: 2px solid var(--accent);
+}
+
+body .ui-dialog .ui-dialog-titlebar-close {
+  background-color: var(--button);
+  border: none;
+}
+
+body .ui-dialog .ui-dialog-titlebar-close:hover {
+  background-color: var(--accent);
+}
+
+#goto_pagetop, #lock_page_icon, #page_settings_icon {
+  background: var(--lbg);
+}

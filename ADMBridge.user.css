@@ -1,0 +1,285 @@
+* {
+  font-weight: 400 !important;
+}
+
+body {
+  font-family: "Proxima Nova" !important;
+}
+
+.top-nav {
+  background-color:  #3498db;
+}
+
+.side-nav-options {
+  width: 220px !important;
+}
+
+
+.card {
+  background: #ffffff;
+  -moz-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .3);
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .3);
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .3);
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all .3s ease 0s;
+}
+
+.card:hover {
+  -moz-box-shadow: 0 1px 15px 0 rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 1px 15px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 1px 15px 0 rgba(0, 0, 0, .5);
+  -moz-transform: translate3D(0, -5px, 0);
+  -webkit-transform: translate3D(0, -5px, 0);
+  transform: translate3D(0, -5px, 0);
+  position: relative;
+  z-index: 3;
+}
+
+.mat-list-item-content .menu-title {
+  text-transform: uppercase;
+  font-size: 14px !important;
+}
+
+dy-logo-loader ~ * .panel-wrapper {
+  -webkit-filter: blur(5px) !important;
+  filter: blur(5px) !important;
+}
+
+table tr:nth-child(even) {
+  background-color: aliceblue;
+}
+
+.card-block,
+.panel-heading {
+  background-color: #3498db !important;
+  border: #3498db 20px solid !important;
+  margin: -20px !important;
+  margin-bottom: 0 !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-block .card-title,
+.panel-heading .card-title {
+  color: white !important;
+}
+
+.card-block .mat-input-infix label,
+.card-block .mat-input-infix input,
+.panel-heading .mat-input-infix label,
+.panel-heading .mat-input-infix input {
+  color: white !important;
+}
+
+.card-block control-table {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-block control-table > div {
+  flex: 1;
+}
+
+.mat-input-underline .mat-input-ripple {
+  background-color: white !important;
+}
+
+.card-title {
+  font-size: 2rem;
+}
+
+features .feature,
+sections .feature {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: baseline;
+  margin: 0 .14285714em;
+  background-image: none;
+  padding: .5833em .833em;
+  text-transform: none;
+  font-weight: 700;
+  border: 0 solid rgba(0, 0, 0, 0);
+  border-radius: .28571429rem;
+  -webkit-transition: background .1s ease;
+  transition: background .1s ease;
+  font-size: .70rem;
+  background-color: #c56ec0;
+  color: white;
+}
+
+.vertical {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: baseline;
+  margin: 0 .14285714em;
+  background-image: none;
+  padding: .5833em .833em;
+  text-transform: none;
+  font-weight: 700;
+  border: 0 solid rgba(0, 0, 0, 0);
+  border-radius: .28571429rem;
+  -webkit-transition: background .1s ease;
+  transition: background .1s ease;
+  font-size: .70rem;
+  background-color: darkgreen;
+  color: white;
+}
+
+.vertical[class*="0"],
+.vertical.-eCommerce {
+  background: cornflowerblue;
+}
+
+.vertical[class*="1"],
+.vertical.-Publisher {
+  background: peru;
+}
+
+.vertical[class*="2"],
+.vertical.-Gaming {
+  background: darkred;
+}
+
+.vertical[class*="3"],
+.vertical.-Other {
+  background: indigo;
+}
+
+.accountType {
+  font-weight: bold;
+}
+
+.accountType[class*="0"] {
+  color: grey;
+}
+
+.accountType[class*="1"] {
+  color: navy;
+}
+
+.accountType[class*="2"] {
+  color: green;
+}
+
+.accountType[class*="3"] {
+  color: firebrick;
+}
+
+.material-icons[aria-label*="open_in_new"] {
+  color: #0091ea !important;
+}
+
+.mat-primary .material-icons[aria-label*="open_in_new"] {
+  color: white !important;
+}
+
+tr {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+tr td,
+tr th {
+  flex: 1;
+}
+
+global-settings tr th:nth-child(3),
+global-settings tr td:nth-child(3),
+publishers tr th:nth-child(3),
+publishers tr td:nth-child(3),
+publishers tr th:nth-child(7),
+publishers tr td:nth-child(7),
+sections tr th:nth-child(3),
+sections tr td:nth-child(3),
+sections tr th:nth-child(4),
+sections tr td:nth-child(4),
+sections tr th:nth-child(5),
+sections tr td:nth-child(5),
+sections tr th:nth-child(6),
+sections tr td:nth-child(6),
+sections tr th:nth-child(7),
+sections tr td:nth-child(7),
+sections tr th:nth-child(8),
+sections tr td:nth-child(8),
+sections tr th:nth-child(11),
+sections tr td:nth-child(11),
+users tr th:nth-child(2),
+users tr td:nth-child(2),
+users tr th:nth-child(5),
+users tr td:nth-child(5),
+admin-users tr th:nth-child(4),
+admin-users tr td:nth-child(4),
+admin-users tr th:nth-child(5),
+admin-users tr td:nth-child(5),
+dashboard tr th:nth-child(5),
+dashboard tr td:nth-child(5) {
+  flex: 0.5 !important;
+}
+
+global-settings tr th:nth-child(1),
+global-settings tr td:nth-child(1),
+global-settings tr th:nth-child(6),
+global-settings tr td:nth-child(6),
+sections tr th:nth-child(3),
+sections tr td:nth-child(3),
+sections tr th:nth-child(7),
+sections tr td:nth-child(7),
+admin-users tr th:nth-child(1),
+admin-users tr td:nth-child(1),
+admin-users tr th:nth-child(6),
+admin-users tr td:nth-child(6),
+features tr th:nth-child(1),
+features tr td:nth-child(1),
+features tr th:nth-child(4),
+features tr td:nth-child(4),
+features tr th:nth-child(5),
+features tr td:nth-child(5),
+features tr th:nth-child(6),
+features tr td:nth-child(6),
+features tr th:nth-child(7),
+features tr td:nth-child(7),
+dashboard tr th:nth-child(1),
+dashboard tr td:nth-child(1),
+dashboard tr th:nth-child(3),
+dashboard tr td:nth-child(3),
+dashboard tr th:nth-child(6),
+dashboard tr td:nth-child(6),
+users tr th:nth-child(1),
+users tr td:nth-child(1),
+users tr th:nth-child(6),
+users tr td:nth-child(6),
+[_ngcontent-c16] control-table tr th:nth-child(3),
+[_ngcontent-c16] control-table tr td:nth-child(3),
+[_ngcontent-c16] control-table tr th:nth-child(4),
+[_ngcontent-c16] control-table tr td:nth-child(4) {
+  flex: 0.25 !important;
+}
+
+global-settings tr th:nth-child(2),
+global-settings tr td:nth-child(2),
+features tr th:nth-child(2),
+features tr td:nth-child(2),
+features tr th:nth-child(3),
+features tr td:nth-child(3){
+  flex: 1 !important;
+}
+
+publishers tr th:nth-child(5),
+publishers tr td:nth-child(5),
+sections tr th:nth-child(6),
+sections tr td:nth-child(6),
+sections tr th:nth-child(9),
+sections tr td:nth-child(9),
+features tr th:nth-child(5),
+features tr td:nth-child(5),
+features tr th:nth-child(6),
+features tr td:nth-child(6) {
+  display: none;
+}
+
+.mat-form-field-infix {
+  width: auto;
+}

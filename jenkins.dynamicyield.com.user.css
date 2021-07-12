@@ -1,0 +1,119 @@
+.ace_editor {
+  font-family: var(--mono);
+}
+
+.ace-tomorrow {
+  background: var(--contrast);
+  color: var(--fg);
+}
+
+.ace-tomorrow .ace_cursor {
+  color: var(--primary);
+}
+
+.ace-tomorrow .ace_gutter {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.ace-tomorrow .ace_print-margin {
+  background: var(--bg);
+}
+
+.ace-tomorrow .ace_marker-layer .ace_selection {
+  background: var(--selectBg);
+}
+
+.ace-tomorrow.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px var(--selFg);
+}
+
+.ace-tomorrow .ace_marker-layer .ace_step {
+  background: var(--accent);
+}
+
+.ace-tomorrow .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid var(--operator);
+}
+
+.ace-tomorrow .ace_marker-layer .ace_active-line {
+  background: var(--tree);
+}
+
+.ace-tomorrow .ace_gutter-active-line {
+  background-color: var(--tree);
+}
+
+.ace-tomorrow .ace_marker-layer .ace_selected-word {
+  border: 1px solid var(--hl);
+}
+
+.ace-tomorrow .ace_invisible {
+  color: var(--comment);
+}
+
+.ace-tomorrow .ace_gutter-active-line {
+  background-color: var(--tree);
+}
+
+.ace-tomorrow .ace_keyword,
+.ace-tomorrow .ace_meta,
+.ace-tomorrow .ace_storage,
+.ace-tomorrow .ace_storage.ace_type,
+.ace-tomorrow .ace_support.ace_type {
+  color: var(--keyword);
+}
+
+.ace-tomorrow .ace_heading,
+.ace-tomorrow .ace_markup.ace_heading,
+.ace-tomorrow .ace_string {
+  color: var(--string);
+}
+
+.ace-tomorrow .ace_comment {
+  color: var(--comment);
+}
+
+.ace-tomorrow .ace_keyword.ace_operator {
+  color: var(--operator);
+}
+
+.ace-tomorrow .ace_constant.ace_character, .ace-tomorrow .ace_constant.ace_language, .ace-tomorrow .ace_constant.ace_numeric, .ace-tomorrow .ace_keyword.ace_other.ace_unit, .ace-tomorrow .ace_support.ace_constant, .ace-tomorrow .ace_variable.ace_parameter {
+  color: var(--number);
+}
+
+.ace-tomorrow .ace_constant.ace_other {
+  color: var(--variable);
+}
+
+.ace-tomorrow .ace_invalid {
+  color: var(--selFg);
+  background-color: var(--error);
+}
+
+.ace-tomorrow .ace_invalid.ace_deprecated {
+  color: var(--disabled);
+  background-color: transparent;
+}
+
+.ace-tomorrow .ace_fold {
+  background-color: var(--tree);
+  border-color: var(--link);
+}
+
+.ace-tomorrow .ace_entity.ace_name.ace_function, .ace-tomorrow .ace_support.ace_function, .ace-tomorrow .ace_variable {
+  color: var(--variable);
+}
+
+.ace-tomorrow .ace_support.ace_class, .ace-tomorrow .ace_support.ace_type {
+  color: var(--attribute);
+}
+
+.ace-tomorrow .ace_entity.ace_name.ace_tag, .ace-tomorrow .ace_entity.ace_other.ace_attribute-name, .ace-tomorrow .ace_meta.ace_tag, .ace-tomorrow .ace_string.ace_regexp, .ace-tomorrow .ace_variable {
+  color: var(--tag);
+}
+
+.ace-tomorrow .ace_indent-guide {
+  background: var(--background);
+}

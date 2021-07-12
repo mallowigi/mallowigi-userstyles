@@ -1,0 +1,62 @@
+body {
+  background: url('/imagesstructures/fond.jpg');
+  position: relative;
+  font-family: 'Open Sans', 'Helvetica', 'Verdana', sans-serif;
+}
+
+body:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.8;
+  background-color: rgb(0, 0, 34);
+}
+
+#wrapheader,
+#wrapcentre {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.postbody {
+  line-height: 1.5em;
+}
+
+#logodesc {
+  height: 160px;
+  overflow: hidden;
+  background-image: url('//a.thumbs.redditmedia.com/PCWSAPbb-Llw1gJOLmQad9_8xMTBj6qk1Khg2P0kqg8.jpg');
+  background-size: cover;
+  font-size: xx-small;
+  box-shadow: 0px -0px 6px rgb(85, 85, 85);
+  -webkit-box-shadow: 0px -0px 6px rgb(85, 85, 85);
+  -moz-box-shadow: 0px -0px 6px #555;
+}
+
+#logodesc table {
+  display: none;
+}
+
+td.row0 img {
+  content: ' ';
+  width: 22px;
+  height: 22px;
+  box-sizing: border-box;
+  padding-left: 22px;
+  background-image: url('//d.thumbs.redditmedia.com/RsneNvO5UTbeSJdc.png');
+  background-position: 0px 0px;
+  -khtml-opacity: 0.85;
+  opacity: 0.85;
+  background-repeat: no-repeat;
+  display: block;
+  /* Equal to width of new image */
+}
+
+td.row0 img[alt='Messages non lus'] {
+  background-position: -22px 0px;
+}

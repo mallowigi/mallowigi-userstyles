@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name           Slack
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@updateURL      http://localhost:8080/dist/slack.user.css
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("app.slack.com") {
+@import url('http://localhost:8080/dist/slack.css')
+}

@@ -1,0 +1,321 @@
+/* ==UserStyle==
+@name           Material Github
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+@-moz-document domain("github.com") {
+  /* 	.blob-code {
+      background: var(--bg);
+    } */
+
+  .pl-c,
+  .pl-c span {
+    color: var(--comment) !important;
+    font-style: italic !important
+  }
+  .pl-c1 {
+    color: var(--attribute) !important
+  }
+  .pl-cce {
+    color: var(--operator) !important;
+    font-weight: 400 !important
+  }
+  .pl-cn {
+    color: var(--keyword) !important
+  }
+  .pl-coc {
+    color: var(--keyword) !important
+  }
+  .pl-cos {
+    color: var(--string) !important
+  }
+  .pl-e {
+    color: var(--attribute) !important
+  }
+  .pl-ef {
+    color: var(--function) !important
+  }
+  .pl-en {
+    color: var(--function) !important
+  }
+  .pl-enc {
+    color: var(--attribute) !important
+  }
+  .pl-enf {
+    color: var(--function) !important
+  }
+  .pl-enm {
+    color: var(--function) !important
+  }
+  .pl-ens {
+    color: var(--keyword) !important
+  }
+  .pl-ent {
+    color: var(--tag) !important
+  }
+  .pl-entc {
+    color: var(--number) !important
+  }
+  .pl-enti {
+    color: var(--variable) !important;
+    font-weight: 700 !important
+  }
+  .pl-entm {
+    color: var(--keyword) !important
+  }
+  .pl-eoa {
+    color: var(--attribute) !important
+  }
+  .pl-eoac {
+    color: var(--number) !important
+  }
+  .pl-eoac .pl-pde {
+    color: var(--number) !important
+  }
+  .pl-eoai {
+    color: var(--link) !important
+  }
+  .pl-eoai .pl-pde {
+    color: var(--number) !important
+  }
+  .pl-eoi {
+    color: var(--string) !important
+  }
+  .pl-ii {
+    color: var(--error) !important;
+  }
+  .pl-k {
+    color: var(--keyword) !important
+  }
+  .pl-ko {
+    color: var(--operator) !important
+  }
+  .pl-kolp {
+    color: var(--operator) !important
+  }
+  .pl-kos {
+    color: var(--operator) !important;
+  }
+  .pl-kos + .pl-c1 {
+    color: var(--variable) !important;
+  }
+  .pl-kou {
+    color: var(--number) !important
+  }
+  .pl-mai .pl-sf {
+    color: var(--function) !important;
+    font-style: italic !important;
+  }
+  .pl-mb {
+    color: var(--fg) !important;
+    font-weight: 700 !important
+  }
+  .pl-mc {
+    color: var(--link) !important
+  }
+  .pl-mh {
+    color: var(--tag) !important;
+    font-weight: 400 !important
+  }
+  .pl-mh .pl-pdh {
+    color: var(--operator) !important
+  }
+  .pl-mi {
+    color: var(--fg) !important;
+    font-style: italic !important
+  }
+  .pl-ml {
+    color: var(--error) !important
+  }
+  .pl-mm {
+    color: var(--variable) !important
+  }
+  .pl-mp {
+    color: var(--tag) !important
+  }
+  .pl-mp1 .pl-sf {
+    color: var(--function) !important
+  }
+  .pl-mq {
+    color: var(--string) !important
+  }
+  .pl-mr {
+    color: var(--keyword) !important
+  }
+  .pl-ms {
+    color: var(--operator) !important
+  }
+  .pl-pdb {
+    color: initial !important;
+    font-weight: 700 !important
+  }
+  .pl-pdc {
+    color: var(--comment) !important;
+    font-style: italic !important
+  }
+  .pl-pdc1 {
+    color: var(--number) !important
+  }
+  .pl-pde {
+    color: var(--attribute) !important
+  }
+  .pl-pdi {
+    color: initial !important;
+    font-style: italic !important
+  }
+  .pl-pds {
+    color: var(--string) !important
+  }
+  .pl-pdv {
+    color: #7587a6 !important
+  }
+  .pl-pse {
+    color: var(--operator) !important
+  }
+  .pl-pse .pl-s2 {
+    color: #cf6a4c !important
+  }
+  .pl-s {
+    color: var(--string) !important
+  }
+  .pl-s1 {
+    color: var(--string) !important
+  }
+  .pl-s2 {
+    color: var(--fg) !important
+  }
+  .pl-mp .pl-s3 {
+    color: var(--operator) !important
+  }
+  .pl-s3 {
+    color: var(--operator) !important
+  }
+  .pl-sc {
+    color: var(--attribute) !important
+  }
+  .pl-scp {
+    color: var(--number) !important
+  }
+  .pl-sf {
+    color: var(--function) !important
+  }
+  .pl-smc {
+    color: var(--keyword) !important
+  }
+  .pl-smi {
+    color: var(--attribute) !important
+  }
+  .pl-smp {
+    color: var(--variable) !important
+  }
+  .pl-sok {
+    color: var(--keyword) !important;
+    font-weight: bold !important;
+  }
+  .pl-sol {
+    color: var(--link) !important
+  }
+  .pl-som {
+    color: var(--link) !important
+  }
+  .pl-sr {
+    color: var(--string) !important
+  }
+  .pl-sra {
+    color: var(--operator) !important
+  }
+  .pl-src {
+    color: var(--string) !important
+  }
+  .pl-sre {
+    color: var(--string) !important
+  }
+  .pl-st {
+    color: var(--attribute) !important
+  }
+  .pl-stj {
+    color: var(--attribute) !important
+  }
+  .pl-stp {
+    color: var(--tag) !important
+  }
+  .pl-sv {
+    color: var(--variable) !important
+  }
+  .pl-v {
+    color: var(--variable) !important
+  }
+  .pl-vi {
+    color: var(--link) !important
+  }
+  .pl-vo {
+    color: var(--variable) !important
+  }
+  .pl-vpf {
+    color: var(--number) !important
+  }
+  .pl-mi1 {
+    color: var(--string) !important;
+    background: #020 !important
+  }
+  .pl-mdht {
+    color: var(--link) !important;
+    background: #020 !important
+  }
+  .pl-md {
+    color: var(--comment) !important;
+    background: #200 !important
+  }
+  .pl-mdhf {
+    color: var(--link) !important;
+    background: #200 !important
+  }
+  .pl-mdr {
+    color: var(--number) !important;
+    font-weight: 400 !important
+  }
+  .pl-mdh {
+    color: var(--attribute) !important;
+    font-weight: 400 !important
+  }
+  .pl-mdi {
+    color: var(--operator) !important;
+    font-weight: 400 !important
+  }
+  .pl-bu,
+  .pl-ii,
+  .pl-ii .pl-cce {
+    background-color: none !important;
+    color: var(--error) !important
+  }
+  .pl-mo {
+    color: var(--number) !important
+  }
+  .pl-mri {
+    color: var(--silver) !important
+  }
+  .pl-ms1 {
+    background-color: var(--hl) !important
+  }
+  .pl-va {
+    color: var(--link) !important
+  }
+  .pl-vpu {
+    color: var(--link) !important
+  }
+  .pl-entl {
+    color: var(--text) !important
+  }
+  .highlight .pl-corl span.x,
+  .pl-corl {
+    color: var(--link) !important;
+    text-decoration: underline !important
+  }
+  .pl-token.active,
+  .pl-token:hover {
+    background: var(--hl) !important;
+    color: var(--selectFg) !important
+  }
+}

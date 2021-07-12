@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           white svg charmap
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document regexp(".*charmap\\.md") {
+  /* Insert code here... */
+  img[src*=".svg"] {
+    filter:invert(1);
+  }
+}
