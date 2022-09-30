@@ -1,60 +1,60 @@
 .ace_editor {
-  font-family: var(--mono);
+  font-family: var(--mat-mono);
 }
 
 .ace-tomorrow {
-  background: var(--contrast);
-  color: var(--fg);
+  background: var(--mat-contrast);
+  color: var(--mat-fg);
 }
 
 .ace-tomorrow .ace_cursor {
-  color: var(--primary);
+  color: var(--mat-primary);
 }
 
 .ace-tomorrow .ace_gutter {
-  background: var(--bg);
-  color: var(--text);
+  background: var(--mat-bg);
+  color: var(--mat-text);
 }
 
 .ace-tomorrow .ace_print-margin {
-  background: var(--bg);
+  background: var(--mat-bg);
 }
 
 .ace-tomorrow .ace_marker-layer .ace_selection {
-  background: var(--selectBg);
+  background: var(--mat-selectBg);
 }
 
 .ace-tomorrow.ace_multiselect .ace_selection.ace_start {
-  box-shadow: 0 0 3px 0px var(--selFg);
+  box-shadow: 0 0 3px 0px var(--mat-selFg);
 }
 
 .ace-tomorrow .ace_marker-layer .ace_step {
-  background: var(--accent);
+  background: var(--mat-accent);
 }
 
 .ace-tomorrow .ace_marker-layer .ace_bracket {
   margin: -1px 0 0 -1px;
-  border: 1px solid var(--operator);
+  border: 1px solid var(--mat-operator);
 }
 
 .ace-tomorrow .ace_marker-layer .ace_active-line {
-  background: var(--tree);
+  background: var(--mat-tree);
 }
 
 .ace-tomorrow .ace_gutter-active-line {
-  background-color: var(--tree);
+  background-color: var(--mat-tree);
 }
 
 .ace-tomorrow .ace_marker-layer .ace_selected-word {
-  border: 1px solid var(--hl);
+  border: 1px solid var(--mat-hl);
 }
 
 .ace-tomorrow .ace_invisible {
-  color: var(--comment);
+  color: var(--mat-comment);
 }
 
 .ace-tomorrow .ace_gutter-active-line {
-  background-color: var(--tree);
+  background-color: var(--mat-tree);
 }
 
 .ace-tomorrow .ace_keyword,
@@ -62,58 +62,65 @@
 .ace-tomorrow .ace_storage,
 .ace-tomorrow .ace_storage.ace_type,
 .ace-tomorrow .ace_support.ace_type {
-  color: var(--keyword);
+  color: var(--mat-keyword);
 }
 
 .ace-tomorrow .ace_heading,
 .ace-tomorrow .ace_markup.ace_heading,
 .ace-tomorrow .ace_string {
-  color: var(--string);
+  color: var(--mat-string);
 }
 
 .ace-tomorrow .ace_comment {
-  color: var(--comment);
+  color: var(--mat-comment);
 }
 
+
 .ace-tomorrow .ace_keyword.ace_operator {
-  color: var(--operator);
+  color: var(--mat-operator);
 }
 
 .ace-tomorrow .ace_constant.ace_character, .ace-tomorrow .ace_constant.ace_language, .ace-tomorrow .ace_constant.ace_numeric, .ace-tomorrow .ace_keyword.ace_other.ace_unit, .ace-tomorrow .ace_support.ace_constant, .ace-tomorrow .ace_variable.ace_parameter {
-  color: var(--number);
+  color: var(--mat-number);
 }
 
+
 .ace-tomorrow .ace_constant.ace_other {
-  color: var(--variable);
+  color: var(--mat-variable);
 }
 
 .ace-tomorrow .ace_invalid {
-  color: var(--selFg);
-  background-color: var(--error);
+  color: var(--mat-selFg);
+  background-color: var(--mat-error);
 }
 
 .ace-tomorrow .ace_invalid.ace_deprecated {
-  color: var(--disabled);
+  color: var(--mat-disabled);
   background-color: transparent;
 }
 
 .ace-tomorrow .ace_fold {
-  background-color: var(--tree);
-  border-color: var(--link);
+  background-color: var(--mat-tree);
+  border-color: var(--mat-link);
 }
 
+
 .ace-tomorrow .ace_entity.ace_name.ace_function, .ace-tomorrow .ace_support.ace_function, .ace-tomorrow .ace_variable {
-  color: var(--variable);
+  color: var(--mat-variable);
 }
 
 .ace-tomorrow .ace_support.ace_class, .ace-tomorrow .ace_support.ace_type {
-  color: var(--attribute);
+  color: var(--mat-attribute);
 }
 
 .ace-tomorrow .ace_entity.ace_name.ace_tag, .ace-tomorrow .ace_entity.ace_other.ace_attribute-name, .ace-tomorrow .ace_meta.ace_tag, .ace-tomorrow .ace_string.ace_regexp, .ace-tomorrow .ace_variable {
-  color: var(--tag);
+  color: var(--mat-tag);
 }
 
 .ace-tomorrow .ace_indent-guide {
-  background: var(--background);
+  background: var(--mat-background);
 }
+
+
+
+

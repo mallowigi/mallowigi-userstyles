@@ -1,0 +1,58 @@
+
+  %name "%name" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: %accent;
+--mat-link: %links;
+--mat-accentT: %accent90;
+--mat-accent2: %links;
+--mat-accent2T: %links90;
+--mat-bg: %background;
+--mat-fg: %foreground;
+--mat-text: %text;
+--mat-selectBg: %selectBg;
+--mat-selBg: %selectBg;
+--mat-selectFg: %selectFg;
+--mat-selFg: %selectFg;
+--mat-button: %button;
+--mat-secondBg: %second;
+--mat-lbg: %second;
+--mat-second: %second;
+--mat-disabled: %disabled;
+--mat-contrast: %contrast;
+--mat-dbg: %contrast;
+--mat-active: %table;
+--mat-border: %border;
+--mat-hl: %hl;
+--mat-tree: %tree;
+--mat-notif: %notif;
+--mat-excluded: %excluded;
+--mat-excl: %excluded;
+--mat-yellow: %yellow;
+--mat-attribute: %attributes;
+--mat-green: %green;
+--mat-string: %strings;
+--mat-cyan: %cyan;
+--mat-operator: %operators;
+--mat-blue: %blue;
+--mat-function: %functions;
+--mat-purple: %purple;
+--mat-keyword: %keywords;
+--mat-class: %classes;
+--mat-red: %red;
+--mat-tag: %tags;
+--mat-red2: %error;
+--mat-error: %error;
+--mat-orange: %orange;
+--mat-number: %numbers;
+--mat-orange2: %orange;
+--mat-parameter: %parameters;
+--mat-gray: %gray;
+--mat-comment: %comments;
+--mat-silver: %white;
+--mat-variable: %vars;
+--mat-black: %foreground;
+
+EOT;
+

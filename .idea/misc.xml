@@ -19,6 +19,16 @@
       </map>
     </option>
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="arn:aws:eks:us-east-1:884661243007:cluster/prod" />
+    <option name="namespace" value="default" />
+  </component>
   <component name="MarkdownProjectSettings">
     <PreviewSettings splitEditorLayout="SPLIT" splitEditorPreview="PREVIEW" useGrayscaleRendering="false" zoomFactor="1.0" maxImageWidth="0" synchronizePreviewPosition="true" highlightPreviewType="NONE" highlightFadeOut="5" highlightOnTyping="true" synchronizeSourcePosition="true" verticallyAlignSourceAndPreviewSyncPosition="true" showSearchHighlightsInPreview="false" showSelectionInPreview="true" lastLayoutSetsDefault="false">
       <PanelProvider>
@@ -65,18 +75,11 @@
     </CssSettings>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="accountSettings">
-    <option name="activeProfile" value="profile:default" />
-    <option name="activeRegion" value="us-east-1" />
-    <option name="recentlyUsedProfiles">
-      <list>
-        <option value="profile:default" />
-      </list>
-    </option>
-    <option name="recentlyUsedRegions">
-      <list>
-        <option value="us-east-1" />
-      </list>
-    </option>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" project-jdk-name="14" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="increaseLineSpacing" value="true" />
+    <option name="showWarnings" value="true" />
   </component>
 </project>

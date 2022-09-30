@@ -1,0 +1,1305 @@
+/* ==UserStyle==
+@name   Material Themes root
+@namespace  https://www.material-theme.com
+@version 1.0.0
+@description Material Theme Root (variables)
+@author Elior Boukhobza <elior@material-theme.com> (https://github.com/mallowigi)
+
+@advanced text font-family "Font Family" "'Open Sans', 'Calibri', Tahoma, Helvetica, Arial"
+@advanced text mono-font "Monospace Font" "'Operator Mono', 'Menlo', 'Consolas', 'Source Code Pro'"
+
+@advanced dropdown theme "Theme" {
+  Material Oceanic "Material Oceanic" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #009688;
+--mat-link: #80cbc4;
+--mat-accentT: #00968890;
+--mat-accent2: #80cbc4;
+--mat-accent2T: #80cbc490;
+--mat-bg: #263238;
+--mat-fg: #B0BEC5;
+--mat-text: #607D8B;
+--mat-selectBg: #546E7A;
+--mat-selBg: #546E7A;
+--mat-selectFg: #FFFFFF;
+--mat-selFg: #FFFFFF;
+--mat-button: #2E3C43;
+--mat-secondBg: #32424A;
+--mat-lbg: #32424A;
+--mat-second: #32424A;
+--mat-disabled: #415967;
+--mat-contrast: #1E272C;
+--mat-dbg: #1E272C;
+--mat-active: #314549;
+--mat-border: #2A373E;
+--mat-hl: #425B67;
+--mat-tree: #546E7A70;
+--mat-notif: #1E272C;
+--mat-excluded: #2E3C43;
+--mat-excl: #2E3C43;
+--mat-yellow: #ffcb6b;
+--mat-attribute: #ffcb6b;
+--mat-green: #c3e88d;
+--mat-string: #c3e88d;
+--mat-cyan: #89ddff;
+--mat-operator: #89ddff;
+--mat-blue: #82aaff;
+--mat-function: #82aaff;
+--mat-purple: #c792ea;
+--mat-keyword: #c792ea;
+--mat-class: #ffcb6b;
+--mat-red: #f07178;
+--mat-tag: #f07178;
+--mat-red2: #ff5370;
+--mat-error: #ff5370;
+--mat-orange: #f78c6c;
+--mat-number: #f78c6c;
+--mat-orange2: #f78c6c;
+--mat-parameter: #f78c6c;
+--mat-gray: #546e7a;
+--mat-comment: #546e7a;
+--mat-silver: #eeffff;
+--mat-variable: #eeffff;
+--mat-black: #B0BEC5;
+
+EOT;
+
+
+  Material Darker "Material Darker" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #FF9800;
+--mat-link: #80cbc4;
+--mat-accentT: #FF980090;
+--mat-accent2: #80cbc4;
+--mat-accent2T: #80cbc490;
+--mat-bg: #212121;
+--mat-fg: #B0BEC5;
+--mat-text: #727272;
+--mat-selectBg: #404040;
+--mat-selBg: #404040;
+--mat-selectFg: #FFFFFF;
+--mat-selFg: #FFFFFF;
+--mat-button: #2A2A2A;
+--mat-secondBg: #292929;
+--mat-lbg: #292929;
+--mat-second: #292929;
+--mat-disabled: #474747;
+--mat-contrast: #1A1A1A;
+--mat-dbg: #1A1A1A;
+--mat-active: #323232;
+--mat-border: #292929;
+--mat-hl: #3F3F3F;
+--mat-tree: #323232C0;
+--mat-notif: #1A1A1A;
+--mat-excluded: #323232;
+--mat-excl: #323232;
+--mat-yellow: #ffcb6b;
+--mat-attribute: #ffcb6b;
+--mat-green: #c3e88d;
+--mat-string: #c3e88d;
+--mat-cyan: #89ddff;
+--mat-operator: #89ddff;
+--mat-blue: #82aaff;
+--mat-function: #82aaff;
+--mat-purple: #c792ea;
+--mat-keyword: #c792ea;
+--mat-class: #ffcb6b;
+--mat-red: #f07178;
+--mat-tag: #f07178;
+--mat-red2: #ff5370;
+--mat-error: #ff5370;
+--mat-orange: #f78c6c;
+--mat-number: #f78c6c;
+--mat-orange2: #f78c6c;
+--mat-parameter: #f78c6c;
+--mat-gray: #616161;
+--mat-comment: #616161;
+--mat-silver: #eeffff;
+--mat-variable: #eeffff;
+--mat-black: #B0BEC5;
+
+EOT;
+
+
+  Material Lighter "Material Lighter" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #00BCD4;
+--mat-link: #39ADB5;
+--mat-accentT: #00BCD490;
+--mat-accent2: #39ADB5;
+--mat-accent2T: #39ADB590;
+--mat-bg: #FAFAFA;
+--mat-fg: #546E7A;
+--mat-text: #94A7B0;
+--mat-selectBg: #CCD7DA;
+--mat-selBg: #CCD7DA;
+--mat-selectFg: #546e7a;
+--mat-selFg: #546e7a;
+--mat-button: #F3F4F5;
+--mat-secondBg: #FFFFFF;
+--mat-lbg: #FFFFFF;
+--mat-second: #FFFFFF;
+--mat-disabled: #D2D4D5;
+--mat-contrast: #EEEEEE;
+--mat-dbg: #EEEEEE;
+--mat-active: #E7E7E8;
+--mat-border: #d3e1e8;
+--mat-hl: #E7E7E8;
+--mat-tree: #80CBC440;
+--mat-notif: #eae8e8;
+--mat-excluded: #d3e1e8;
+--mat-excl: #d3e1e8;
+--mat-yellow: #f6a434;
+--mat-attribute: #F6A434;
+--mat-green: #91b859;
+--mat-string: #91B859;
+--mat-cyan: #39adb5;
+--mat-operator: #39ADB5;
+--mat-blue: #6182b8;
+--mat-function: #6182B8;
+--mat-purple: #7c4dff;
+--mat-keyword: #7C4DFF;
+--mat-class: #F6A434;
+--mat-red: #e53935;
+--mat-tag: #E53935;
+--mat-red2: #e53935;
+--mat-error: #e53935;
+--mat-orange: #f76d47;
+--mat-number: #F76D47;
+--mat-orange2: #f76d47;
+--mat-parameter: #F76D47;
+--mat-gray: #AABFC9;
+--mat-comment: #AABFC9;
+--mat-silver: #272727;
+--mat-variable: #272727;
+--mat-black: #546E7A;
+
+EOT;
+
+
+  Material Palenight "Material Palenight" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #ab47bc;
+--mat-link: #80cbc4;
+--mat-accentT: #ab47bc90;
+--mat-accent2: #80cbc4;
+--mat-accent2T: #80cbc490;
+--mat-bg: #292D3E;
+--mat-fg: #A6ACCD;
+--mat-text: #676E95;
+--mat-selectBg: #444267;
+--mat-selBg: #444267;
+--mat-selectFg: #FFFFFF;
+--mat-selFg: #FFFFFF;
+--mat-button: #303348;
+--mat-secondBg: #34324a;
+--mat-lbg: #34324a;
+--mat-second: #34324a;
+--mat-disabled: #515772;
+--mat-contrast: #202331;
+--mat-dbg: #202331;
+--mat-active: #414863;
+--mat-border: #2b2a3e;
+--mat-hl: #444267;
+--mat-tree: #676E95;
+--mat-notif: #202331;
+--mat-excluded: #2f2e43;
+--mat-excl: #2f2e43;
+--mat-yellow: #ffcb6b;
+--mat-attribute: #ffcb6b;
+--mat-green: #c3e88d;
+--mat-string: #c3e88d;
+--mat-cyan: #89ddff;
+--mat-operator: #89ddff;
+--mat-blue: #82aaff;
+--mat-function: #82aaff;
+--mat-purple: #c792ea;
+--mat-keyword: #c792ea;
+--mat-class: #ffcb6b;
+--mat-red: #f07178;
+--mat-tag: #f07178;
+--mat-red2: #ff5370;
+--mat-error: #ff5370;
+--mat-orange: #f78c6c;
+--mat-number: #f78c6c;
+--mat-orange2: #f78c6c;
+--mat-parameter: #f78c6c;
+--mat-gray: #676E95;
+--mat-comment: #676E95;
+--mat-silver: #eeffff;
+--mat-variable: #eeffff;
+--mat-black: #A6ACCD;
+
+EOT;
+
+
+  Material Deep Ocean "Material Deep Ocean" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #84ffff;
+--mat-link: #80cbc4;
+--mat-accentT: #84ffff90;
+--mat-accent2: #80cbc4;
+--mat-accent2T: #80cbc490;
+--mat-bg: #0F111A;
+--mat-fg: #8F93A2;
+--mat-text: #4B526D;
+--mat-selectBg: #222533;
+--mat-selBg: #222533;
+--mat-selectFg: #FFFFFF;
+--mat-selFg: #FFFFFF;
+--mat-button: #191A21;
+--mat-secondBg: #181A1F;
+--mat-lbg: #181A1F;
+--mat-second: #181A1F;
+--mat-disabled: #464B5D;
+--mat-contrast: #090B10;
+--mat-dbg: #090B10;
+--mat-active: #1A1C25;
+--mat-border: #0F111A;
+--mat-hl: #1F2233;
+--mat-tree: #717CB430;
+--mat-notif: #090B10;
+--mat-excluded: #292D3E;
+--mat-excl: #292D3E;
+--mat-yellow: #ffcb6b;
+--mat-attribute: #ffcb6b;
+--mat-green: #c3e88d;
+--mat-string: #c3e88d;
+--mat-cyan: #89ddff;
+--mat-operator: #89ddff;
+--mat-blue: #82aaff;
+--mat-function: #82aaff;
+--mat-purple: #c792ea;
+--mat-keyword: #c792ea;
+--mat-class: #ffcb6b;
+--mat-red: #f07178;
+--mat-tag: #f07178;
+--mat-red2: #ff5370;
+--mat-error: #ff5370;
+--mat-orange: #f78c6c;
+--mat-number: #f78c6c;
+--mat-orange2: #f78c6c;
+--mat-parameter: #f78c6c;
+--mat-gray: #717CB4;
+--mat-comment: #717CB4;
+--mat-silver: #eeffff;
+--mat-variable: #eeffff;
+--mat-black: #8F93A2;
+
+EOT;
+
+
+  Material Forest "Material Forest" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #FFCC80;
+--mat-link: #80cbc4;
+--mat-accentT: #FFCC8090;
+--mat-accent2: #80cbc4;
+--mat-accent2T: #80cbc490;
+--mat-bg: #002626;
+--mat-fg: #B2C2B0;
+--mat-text: #49694D;
+--mat-selectBg: #1E611E;
+--mat-selBg: #1E611E;
+--mat-selectFg: #FFFFFF;
+--mat-selFg: #FFFFFF;
+--mat-button: #003535;
+--mat-secondBg: #002E2E;
+--mat-lbg: #002E2E;
+--mat-second: #002E2E;
+--mat-disabled: #005454;
+--mat-contrast: #002020;
+--mat-dbg: #002020;
+--mat-active: #104110;
+--mat-border: #003838;
+--mat-hl: #003F3F;
+--mat-tree: #32CD3250;
+--mat-notif: #002020;
+--mat-excluded: #113711;
+--mat-excl: #113711;
+--mat-yellow: #ffcb6b;
+--mat-attribute: #ffcb6b;
+--mat-green: #c3e88d;
+--mat-string: #c3e88d;
+--mat-cyan: #89ddff;
+--mat-operator: #89ddff;
+--mat-blue: #82aaff;
+--mat-function: #82aaff;
+--mat-purple: #c792ea;
+--mat-keyword: #c792ea;
+--mat-class: #ffcb6b;
+--mat-red: #f07178;
+--mat-tag: #f07178;
+--mat-red2: #ff5370;
+--mat-error: #ff5370;
+--mat-orange: #f78c6c;
+--mat-number: #f78c6c;
+--mat-orange2: #f78c6c;
+--mat-parameter: #f78c6c;
+--mat-gray: #005454;
+--mat-comment: #005454;
+--mat-silver: #eeffff;
+--mat-variable: #eeffff;
+--mat-black: #B2C2B0;
+
+EOT;
+
+
+  Material Sky Blue "Material Sky Blue" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #00c6e0;
+--mat-link: #39ADB5;
+--mat-accentT: #00c6e090;
+--mat-accent2: #39ADB5;
+--mat-accent2T: #39ADB590;
+--mat-bg: #F5F5F5;
+--mat-fg: #005761;
+--mat-text: #01579B;
+--mat-selectBg: #ade2eb;
+--mat-selBg: #ade2eb;
+--mat-selectFg: #272727;
+--mat-selFg: #272727;
+--mat-button: #c9eef2;
+--mat-secondBg: #e7f2f3;
+--mat-lbg: #e7f2f3;
+--mat-second: #e7f2f3;
+--mat-disabled: #87a7ab;
+--mat-contrast: #E4F2F2;
+--mat-dbg: #E4F2F2;
+--mat-active: #caedf2;
+--mat-border: #d0edf1;
+--mat-hl: #d1eafa;
+--mat-tree: #b6e1e780;
+--mat-notif: #e0eff1;
+--mat-excluded: #c1def0;
+--mat-excl: #c1def0;
+--mat-yellow: #f6a434;
+--mat-attribute: #F6A434;
+--mat-green: #91b859;
+--mat-string: #91B859;
+--mat-cyan: #39adb5;
+--mat-operator: #39ADB5;
+--mat-blue: #6182b8;
+--mat-function: #6182B8;
+--mat-purple: #7c4dff;
+--mat-keyword: #7C4DFF;
+--mat-class: #F6A434;
+--mat-red: #e53935;
+--mat-tag: #E53935;
+--mat-red2: #e53935;
+--mat-error: #e53935;
+--mat-orange: #f76d47;
+--mat-number: #F76D47;
+--mat-orange2: #f76d47;
+--mat-parameter: #F76D47;
+--mat-gray: #01579B;
+--mat-comment: #01579B;
+--mat-silver: #272727;
+--mat-variable: #272727;
+--mat-black: #005761;
+
+EOT;
+
+
+  Material Sandy Beach "Material Sandy Beach" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #53c7f0;
+--mat-link: #39ADB5;
+--mat-accentT: #53c7f090;
+--mat-accent2: #39ADB5;
+--mat-accent2T: #39ADB590;
+--mat-bg: #FFF8ED;
+--mat-fg: #546E7A;
+--mat-text: #888477;
+--mat-selectBg: #e7c496;
+--mat-selBg: #e7c496;
+--mat-selectFg: #272727;
+--mat-selFg: #272727;
+--mat-button: #f6d7b0;
+--mat-secondBg: #f6edda;
+--mat-lbg: #f6edda;
+--mat-second: #f6edda;
+--mat-disabled: #B8B6A5;
+--mat-contrast: #FFF3DB;
+--mat-dbg: #FFF3DB;
+--mat-active: #F0E2C2;
+--mat-border: #d9d4c7;
+--mat-hl: #FAF0DE;
+--mat-tree: #e7c49680;
+--mat-notif: #f6d7b0;
+--mat-excluded: #f6d7b0;
+--mat-excl: #f6d7b0;
+--mat-yellow: #f6a434;
+--mat-attribute: #F6A434;
+--mat-green: #91b859;
+--mat-string: #91B859;
+--mat-cyan: #39adb5;
+--mat-operator: #39ADB5;
+--mat-blue: #6182b8;
+--mat-function: #6182B8;
+--mat-purple: #7c4dff;
+--mat-keyword: #7C4DFF;
+--mat-class: #F6A434;
+--mat-red: #e53935;
+--mat-tag: #E53935;
+--mat-red2: #e53935;
+--mat-error: #e53935;
+--mat-orange: #f76d47;
+--mat-number: #F76D47;
+--mat-orange2: #f76d47;
+--mat-parameter: #F76D47;
+--mat-gray: #888477;
+--mat-comment: #888477;
+--mat-silver: #272727;
+--mat-variable: #272727;
+--mat-black: #546E7A;
+
+EOT;
+
+
+  Material Volcano "Material Volcano" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #00bcd4;
+--mat-link: #80cbc4;
+--mat-accentT: #00bcd490;
+--mat-accent2: #80cbc4;
+--mat-accent2T: #80cbc490;
+--mat-bg: #390000;
+--mat-fg: #ffeaea;
+--mat-text: #ffd0aa;
+--mat-selectBg: #750000;
+--mat-selBg: #750000;
+--mat-selectFg: #FFFFFF;
+--mat-selFg: #FFFFFF;
+--mat-button: #700000;
+--mat-secondBg: #330000;
+--mat-lbg: #330000;
+--mat-second: #330000;
+--mat-disabled: #7f3c3c;
+--mat-contrast: #300000;
+--mat-dbg: #300000;
+--mat-active: #440000;
+--mat-border: #400000;
+--mat-hl: #550000;
+--mat-tree: #77000050;
+--mat-notif: #300a0a;
+--mat-excluded: #662222;
+--mat-excl: #662222;
+--mat-yellow: #ffcb6b;
+--mat-attribute: #ffcb6b;
+--mat-green: #c3e88d;
+--mat-string: #c3e88d;
+--mat-cyan: #89ddff;
+--mat-operator: #89ddff;
+--mat-blue: #82aaff;
+--mat-function: #82aaff;
+--mat-purple: #c792ea;
+--mat-keyword: #c792ea;
+--mat-class: #ffcb6b;
+--mat-red: #f07178;
+--mat-tag: #f07178;
+--mat-red2: #ff5370;
+--mat-error: #ff5370;
+--mat-orange: #f78c6c;
+--mat-number: #f78c6c;
+--mat-orange2: #f78c6c;
+--mat-parameter: #f78c6c;
+--mat-gray: #7F6451;
+--mat-comment: #7F6451;
+--mat-silver: #eeffff;
+--mat-variable: #eeffff;
+--mat-black: #ffeaea;
+
+EOT;
+
+
+  Monokai Pro "Monokai Pro" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #ffd866;
+--mat-link: #78DCE8;
+--mat-accentT: #ffd86690;
+--mat-accent2: #78DCE8;
+--mat-accent2T: #78DCE890;
+--mat-bg: #2D2A2E;
+--mat-fg: #fcfcfa;
+--mat-text: #939293;
+--mat-selectBg: #6E6C6F;
+--mat-selBg: #6E6C6F;
+--mat-selectFg: #FFFFFF;
+--mat-selFg: #FFFFFF;
+--mat-button: #403E41;
+--mat-secondBg: #403E41;
+--mat-lbg: #403E41;
+--mat-second: #403E41;
+--mat-disabled: #5b595c;
+--mat-contrast: #221F22;
+--mat-dbg: #221F22;
+--mat-active: #4A474B;
+--mat-border: #2d2a2e;
+--mat-hl: #5b595c;
+--mat-tree: #403E41;
+--mat-notif: #363437;
+--mat-excluded: #3a3a3c;
+--mat-excl: #3a3a3c;
+--mat-yellow: #ffd866;
+--mat-attribute: #78DCE8;
+--mat-green: #a9dc76;
+--mat-string: #FFD866;
+--mat-cyan: #78dce8;
+--mat-operator: #FF6188;
+--mat-blue: #78dce8;
+--mat-function: #A9DC76;
+--mat-purple: #ab9df2;
+--mat-keyword: #FF6188;
+--mat-class: #78DCE8;
+--mat-red: #ff6188;
+--mat-tag: #FF6188;
+--mat-red2: #f65f87;
+--mat-error: #f65f87;
+--mat-orange: #f59762;
+--mat-number: #AB9DF2;
+--mat-orange2: #f59762;
+--mat-parameter: #F59762;
+--mat-gray: #727072;
+--mat-comment: #727072;
+--mat-silver: #fcfcfa;
+--mat-variable: #FCFCFA;
+--mat-black: #fcfcfa;
+
+EOT;
+
+
+  Dracula "Dracula" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #FF79C5;
+--mat-link: #feff80;
+--mat-accentT: #FF79C590;
+--mat-accent2: #feff80;
+--mat-accent2T: #feff8090;
+--mat-bg: #282A36;
+--mat-fg: #F8F8F2;
+--mat-text: #6272A4;
+--mat-selectBg: #44475A;
+--mat-selBg: #44475A;
+--mat-selectFg: #8BE9FD;
+--mat-selFg: #8BE9FD;
+--mat-button: #393C4B;
+--mat-secondBg: #282A36;
+--mat-lbg: #282A36;
+--mat-second: #282A36;
+--mat-disabled: #6272A4;
+--mat-contrast: #191A21;
+--mat-dbg: #191A21;
+--mat-active: #44475A;
+--mat-border: #21222C;
+--mat-hl: #44475a;
+--mat-tree: #44475A50;
+--mat-notif: #1D2228;
+--mat-excluded: #313341;
+--mat-excl: #313341;
+--mat-yellow: #feff80;
+--mat-attribute: #8aff80;
+--mat-green: #8aff80;
+--mat-string: #feff80;
+--mat-cyan: #80ffea;
+--mat-operator: #FF79C5;
+--mat-blue: #79cbdc;
+--mat-function: #8aff80;
+--mat-purple: #9580ff;
+--mat-keyword: #FF79C5;
+--mat-class: #8aff80;
+--mat-red: #FF79C5;
+--mat-tag: #FF79C5;
+--mat-red2: #ff5555;
+--mat-error: #ff5555;
+--mat-orange: #f89580;
+--mat-number: #9580ff;
+--mat-orange2: #f89580;
+--mat-parameter: #f89580;
+--mat-gray: #6272A4;
+--mat-comment: #6272A4;
+--mat-silver: #F8F8F2;
+--mat-variable: #F8F8F2;
+--mat-black: #F8F8F2;
+
+EOT;
+
+
+  GitHub "GitHub" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #79CB60;
+--mat-link: #005CC5;
+--mat-accentT: #79CB6090;
+--mat-accent2: #005CC5;
+--mat-accent2T: #005CC590;
+--mat-bg: #F7F8FA;
+--mat-fg: #5B6168;
+--mat-text: #292D31;
+--mat-selectBg: #c6e5ff;
+--mat-selBg: #c6e5ff;
+--mat-selectFg: #111111;
+--mat-selFg: #111111;
+--mat-button: #edf1f5;
+--mat-secondBg: #F3f3f3;
+--mat-lbg: #F3f3f3;
+--mat-second: #F3f3f3;
+--mat-disabled: #9ba0a3;
+--mat-contrast: #fafbfc;
+--mat-dbg: #fafbfc;
+--mat-active: #cce5ff;
+--mat-border: #DFE1E4;
+--mat-hl: #CCE5FF;
+--mat-tree: #e1e4e87c;
+--mat-notif: #DFECFE;
+--mat-excluded: #dcdcdc;
+--mat-excl: #dcdcdc;
+--mat-yellow: #e36209;
+--mat-attribute: #6F42C1;
+--mat-green: #22863a;
+--mat-string: #032F62;
+--mat-cyan: #032F62;
+--mat-operator: #D73A49;
+--mat-blue: #005cc5;
+--mat-function: #6F42C1;
+--mat-purple: #6f42c1;
+--mat-keyword: #D73A49;
+--mat-class: #6F42C1;
+--mat-red: #d73a49;
+--mat-tag: #22863A;
+--mat-red2: #d25252;
+--mat-error: #d25252;
+--mat-orange: #e36209;
+--mat-number: #005CC5;
+--mat-orange2: #e36209;
+--mat-parameter: #E36209;
+--mat-gray: #6A737D;
+--mat-comment: #6A737D;
+--mat-silver: #24292E;
+--mat-variable: #24292E;
+--mat-black: #5B6168;
+
+EOT;
+
+
+  GitHub Dark "GitHub Dark" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #f9826c;
+--mat-link: #79b8ff;
+--mat-accentT: #f9826c90;
+--mat-accent2: #79b8ff;
+--mat-accent2T: #79b8ff90;
+--mat-bg: #24292e;
+--mat-fg: #e1e4e8;
+--mat-text: #959da5;
+--mat-selectBg: #3392FF;
+--mat-selBg: #3392FF;
+--mat-selectFg: #FFFFFF;
+--mat-selFg: #FFFFFF;
+--mat-button: #39414a;
+--mat-secondBg: #2f363d;
+--mat-lbg: #2f363d;
+--mat-second: #2f363d;
+--mat-disabled: #6a737d;
+--mat-contrast: #1e2428;
+--mat-dbg: #1e2428;
+--mat-active: #2b3036;
+--mat-border: #1b1f23;
+--mat-hl: #444d56;
+--mat-tree: #39414a;
+--mat-notif: #2f363d;
+--mat-excluded: #2f363d;
+--mat-excl: #2f363d;
+--mat-yellow: #ffab70;
+--mat-attribute: #b392f0;
+--mat-green: #85e89d;
+--mat-string: #79b8ff;
+--mat-cyan: #79b8ff;
+--mat-operator: #f97583;
+--mat-blue: #79b8ff;
+--mat-function: #b392f0;
+--mat-purple: #b392f0;
+--mat-keyword: #f97583;
+--mat-class: #b392f0;
+--mat-red: #f97583;
+--mat-tag: #85e89d;
+--mat-red2: #f97583;
+--mat-error: #f97583;
+--mat-orange: #ffab70;
+--mat-number: #79b8ff;
+--mat-orange2: #ffab70;
+--mat-parameter: #ffab70;
+--mat-gray: #959da5;
+--mat-comment: #959da5;
+--mat-silver: #d1d5da;
+--mat-variable: #d1d5da;
+--mat-black: #e1e4e8;
+
+EOT;
+
+
+  Arc Dark "Arc Dark" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #5294E2;
+--mat-link: #7587A6;
+--mat-accentT: #5294E290;
+--mat-accent2: #7587A6;
+--mat-accent2T: #7587A690;
+--mat-bg: #2f343f;
+--mat-fg: #D3DAE3;
+--mat-text: #8b9eb5;
+--mat-selectBg: #414181;
+--mat-selBg: #414181;
+--mat-selectFg: #FFFFFF;
+--mat-selFg: #FFFFFF;
+--mat-button: #383C4A;
+--mat-secondBg: #393f4c;
+--mat-lbg: #393f4c;
+--mat-second: #393f4c;
+--mat-disabled: #a2a2a2;
+--mat-contrast: #262b33;
+--mat-dbg: #262b33;
+--mat-active: #41416A;
+--mat-border: #404552;
+--mat-hl: #444A58;
+--mat-tree: #09477170;
+--mat-notif: #262a33;
+--mat-excluded: #37373d;
+--mat-excl: #37373d;
+--mat-yellow: #f9ee98;
+--mat-attribute: #F9EE98;
+--mat-green: #8f9d6a;
+--mat-string: #8F9D6A;
+--mat-cyan: #47bc9b;
+--mat-operator: #A7A7A7;
+--mat-blue: #7587a6;
+--mat-function: #7587A6;
+--mat-purple: #9b859d;
+--mat-keyword: #9B859D;
+--mat-class: #F9EE98;
+--mat-red: #cf6a4c;
+--mat-tag: #CF6A4C;
+--mat-red2: #cf6a4c;
+--mat-error: #cf6a4c;
+--mat-orange: #cda869;
+--mat-number: #CDA869;
+--mat-orange2: #cda869;
+--mat-parameter: #CDA869;
+--mat-gray: #A7A7A7;
+--mat-comment: #747c84;
+--mat-silver: #d3dae3;
+--mat-variable: #CF6A4C;
+--mat-black: #D3DAE3;
+
+EOT;
+
+
+  Atom One Dark "Atom One Dark" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #2979ff;
+--mat-link: #56B6C2;
+--mat-accentT: #2979ff90;
+--mat-accent2: #56B6C2;
+--mat-accent2T: #56B6C290;
+--mat-bg: #282C34;
+--mat-fg: #979FAD;
+--mat-text: #979FAD;
+--mat-selectBg: #4D515D;
+--mat-selBg: #4D515D;
+--mat-selectFg: #FFFFFF;
+--mat-selFg: #FFFFFF;
+--mat-button: #3A3F4B;
+--mat-secondBg: #2F333D;
+--mat-lbg: #2F333D;
+--mat-second: #2F333D;
+--mat-disabled: #6B727D;
+--mat-contrast: #21252B;
+--mat-dbg: #21252B;
+--mat-active: #383E49;
+--mat-border: #282C34;
+--mat-hl: #383D48;
+--mat-tree: #3A3F4B80;
+--mat-notif: #282C34;
+--mat-excluded: #3c4150;
+--mat-excl: #3c4150;
+--mat-yellow: #e5c17c;
+--mat-attribute: #E5C17C;
+--mat-green: #98c379;
+--mat-string: #98C379;
+--mat-cyan: #57b6c2;
+--mat-operator: #61AFEF;
+--mat-blue: #61aeef;
+--mat-function: #61AEEF;
+--mat-purple: #c679dd;
+--mat-keyword: #C679DD;
+--mat-class: #E5C17C;
+--mat-red: #e06c75;
+--mat-tag: #e06c75;
+--mat-red2: #e06c75;
+--mat-error: #e06c75;
+--mat-orange: #d19a66;
+--mat-number: #D19A66;
+--mat-orange2: #d19a66;
+--mat-parameter: #ABB2BF;
+--mat-gray: #59626f;
+--mat-comment: #59626F;
+--mat-silver: #abb2bf;
+--mat-variable: #D19A66;
+--mat-black: #979FAD;
+
+EOT;
+
+
+  Atom One Light "Atom One Light" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #2979ff;
+--mat-link: #0184BC;
+--mat-accentT: #2979ff90;
+--mat-accent2: #0184BC;
+--mat-accent2T: #0184BC90;
+--mat-bg: #F4F4F4;
+--mat-fg: #232324;
+--mat-text: #7f7f7f;
+--mat-selectBg: #FFFFFF;
+--mat-selBg: #FFFFFF;
+--mat-selectFg: #232324;
+--mat-selFg: #232324;
+--mat-button: #DBDBDC;
+--mat-secondBg: #EAEAEB;
+--mat-lbg: #EAEAEB;
+--mat-second: #EAEAEB;
+--mat-disabled: #b8b8b9;
+--mat-contrast: #eaeaeb;
+--mat-dbg: #eaeaeb;
+--mat-active: #DBDBDC;
+--mat-border: #DBDBDC;
+--mat-hl: #FFFFFF;
+--mat-tree: #DBDBDC80;
+--mat-notif: #F2F2F2;
+--mat-excluded: #CACACB;
+--mat-excl: #CACACB;
+--mat-yellow: #c18401;
+--mat-attribute: #C18401;
+--mat-green: #50a14e;
+--mat-string: #50A14E;
+--mat-cyan: #0184bc;
+--mat-operator: #4078F2;
+--mat-blue: #4078f2;
+--mat-function: #4078F2;
+--mat-purple: #a626a4;
+--mat-keyword: #A626A4;
+--mat-class: #C18401;
+--mat-red: #e4564a;
+--mat-tag: #E4564A;
+--mat-red2: #e4564a;
+--mat-error: #e4564a;
+--mat-orange: #986801;
+--mat-number: #986801;
+--mat-orange2: #986801;
+--mat-parameter: #383A42;
+--mat-gray: #a0a1a7;
+--mat-comment: #A0A1A7;
+--mat-silver: #232324;
+--mat-variable: #986801;
+--mat-black: #232324;
+
+EOT;
+
+
+  Solarized Dark "Solarized Dark" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #d33682;
+--mat-link: #268BD2;
+--mat-accentT: #d3368290;
+--mat-accent2: #268BD2;
+--mat-accent2T: #268BD290;
+--mat-bg: #002B36;
+--mat-fg: #839496;
+--mat-text: #586e75;
+--mat-selectBg: #2E4C52;
+--mat-selBg: #2E4C52;
+--mat-selectFg: #FFFFFF;
+--mat-selFg: #FFFFFF;
+--mat-button: #073642;
+--mat-secondBg: #003745;
+--mat-lbg: #003745;
+--mat-second: #003745;
+--mat-disabled: #2E5861;
+--mat-contrast: #00252E;
+--mat-dbg: #00252E;
+--mat-active: #003946;
+--mat-border: #0D3640;
+--mat-hl: #005a6f;
+--mat-tree: #2E4C5280;
+--mat-notif: #2E4C52;
+--mat-excluded: #083F4D;
+--mat-excl: #083F4D;
+--mat-yellow: #b58900;
+--mat-attribute: #B58900;
+--mat-green: #859900;
+--mat-string: #2AA198;
+--mat-cyan: #2aa198;
+--mat-operator: #93A1A1;
+--mat-blue: #268bd2;
+--mat-function: #B58900;
+--mat-purple: #6c71c4;
+--mat-keyword: #859900;
+--mat-class: #B58900;
+--mat-red: #d13684;
+--mat-tag: #268BD2;
+--mat-red2: #dc322f;
+--mat-error: #dc322f;
+--mat-orange: #cb4b16;
+--mat-number: #D33682;
+--mat-orange2: #cb4b16;
+--mat-parameter: #93A1A1;
+--mat-gray: #657B83;
+--mat-comment: #657B83;
+--mat-silver: #93A1A1;
+--mat-variable: #268BD2;
+--mat-black: #839496;
+
+EOT;
+
+
+  Solarized Light "Solarized Light" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #d33682;
+--mat-link: #268BD2;
+--mat-accentT: #d3368290;
+--mat-accent2: #268BD2;
+--mat-accent2T: #268BD290;
+--mat-bg: #fdf6e3;
+--mat-fg: #586e75;
+--mat-text: #93a1a1;
+--mat-selectBg: #e8dcb6;
+--mat-selBg: #e8dcb6;
+--mat-selectFg: #002b36;
+--mat-selFg: #002b36;
+--mat-button: #d8d4c4;
+--mat-secondBg: #F6F0DE;
+--mat-lbg: #F6F0DE;
+--mat-second: #F6F0DE;
+--mat-disabled: #C9CCC3;
+--mat-contrast: #eee8d5;
+--mat-dbg: #eee8d5;
+--mat-active: #d1cbb8;
+--mat-border: #edead9;
+--mat-hl: #d1cbb8;
+--mat-tree: #e8dcb6b0;
+--mat-notif: #EDE8D4;
+--mat-excluded: #E3DCC9;
+--mat-excl: #E3DCC9;
+--mat-yellow: #b58900;
+--mat-attribute: #657B83;
+--mat-green: #859900;
+--mat-string: #2AA198;
+--mat-cyan: #2aa198;
+--mat-operator: #657B83;
+--mat-blue: #268bd2;
+--mat-function: #B58900;
+--mat-purple: #6c71c4;
+--mat-keyword: #859900;
+--mat-class: #657B83;
+--mat-red: #d13684;
+--mat-tag: #268BD2;
+--mat-red2: #dc322f;
+--mat-error: #dc322f;
+--mat-orange: #cb4b16;
+--mat-number: #D33682;
+--mat-orange2: #cb4b16;
+--mat-parameter: #657B83;
+--mat-gray: #93A1A1;
+--mat-comment: #93A1A1;
+--mat-silver: #657b83;
+--mat-variable: #268BD2;
+--mat-black: #586e75;
+
+EOT;
+
+
+  Night Owl "Night Owl" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #7e57c2;
+--mat-link: #ecc48d;
+--mat-accentT: #7e57c290;
+--mat-accent2: #ecc48d;
+--mat-accent2T: #ecc48d90;
+--mat-bg: #011627;
+--mat-fg: #d6deeb;
+--mat-text: #5f7e97;
+--mat-selectBg: #084d81;
+--mat-selBg: #084d81;
+--mat-selectFg: #FFFFFF;
+--mat-selFg: #FFFFFF;
+--mat-button: #0b253a;
+--mat-secondBg: #0b2942;
+--mat-lbg: #0b2942;
+--mat-second: #0b2942;
+--mat-disabled: #697098;
+--mat-contrast: #010e1a;
+--mat-dbg: #010e1a;
+--mat-active: #13344f;
+--mat-border: #122d42;
+--mat-hl: #084d81;
+--mat-tree: #13344f50;
+--mat-notif: #01111d;
+--mat-excluded: #0e293f;
+--mat-excl: #0e293f;
+--mat-yellow: #ecc48d;
+--mat-attribute: #addb67;
+--mat-green: #addb67;
+--mat-string: #ecc48d;
+--mat-cyan: #7fdbca;
+--mat-operator: #c792ea;
+--mat-blue: #82aaff;
+--mat-function: #82aaff;
+--mat-purple: #c792ea;
+--mat-keyword: #c792ea;
+--mat-class: #addb67;
+--mat-red: #ff6363;
+--mat-tag: #7fdbca;
+--mat-red2: #ef5350;
+--mat-error: #ef5350;
+--mat-orange: #f78c6c;
+--mat-number: #f78c6c;
+--mat-orange2: #f78c6c;
+--mat-parameter: #d6deeb;
+--mat-gray: #637777;
+--mat-comment: #637777;
+--mat-silver: #d6deeb;
+--mat-variable: #addb67;
+--mat-black: #d6deeb;
+
+EOT;
+
+
+  Light Owl "Light Owl" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #2AA298;
+--mat-link: #ff869a;
+--mat-accentT: #2AA29890;
+--mat-accent2: #ff869a;
+--mat-accent2T: #ff869a90;
+--mat-bg: #F0F0F0;
+--mat-fg: #403f53;
+--mat-text: #90A7B2;
+--mat-selectBg: #d3e8f8;
+--mat-selBg: #d3e8f8;
+--mat-selectFg: #403f53;
+--mat-selFg: #403f53;
+--mat-button: #d9d9d9;
+--mat-secondBg: #FBFBFB;
+--mat-lbg: #FBFBFB;
+--mat-second: #FBFBFB;
+--mat-disabled: #93A1A1;
+--mat-contrast: #f0f0f0;
+--mat-dbg: #f0f0f0;
+--mat-active: #d3e8f8;
+--mat-border: #d9d9d9;
+--mat-hl: #CCCCCC;
+--mat-tree: #d3e8f87c;
+--mat-notif: #F0F0F0;
+--mat-excluded: #E0E7EA;
+--mat-excl: #E0E7EA;
+--mat-yellow: #e0af02;
+--mat-attribute: #0c969b;
+--mat-green: #56b6c2;
+--mat-string: #c96765;
+--mat-cyan: #0c969b;
+--mat-operator: #994cc3;
+--mat-blue: #4876d6;
+--mat-function: #4876d6;
+--mat-purple: #994cc3;
+--mat-keyword: #994cc3;
+--mat-class: #0c969b;
+--mat-red: #aa0982;
+--mat-tag: #994cc3;
+--mat-red2: #de3d3b;
+--mat-error: #de3d3b;
+--mat-orange: #c96765;
+--mat-number: #aa0982;
+--mat-orange2: #c96765;
+--mat-parameter: #0c969b;
+--mat-gray: #989fb1;
+--mat-comment: #989fb1;
+--mat-silver: #111111;
+--mat-variable: #4876d6;
+--mat-black: #403f53;
+
+EOT;
+
+
+  Moonlight "Moonlight" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #74a0f1;
+--mat-link: #34d3fb;
+--mat-accentT: #74a0f190;
+--mat-accent2: #34d3fb;
+--mat-accent2T: #34d3fb90;
+--mat-bg: #222436;
+--mat-fg: #c8d3f5;
+--mat-text: #a9b8e8;
+--mat-selectBg: #444a73;
+--mat-selBg: #444a73;
+--mat-selectFg: #FFFFFF;
+--mat-selFg: #FFFFFF;
+--mat-button: #444a73;
+--mat-secondBg: #2f334d;
+--mat-lbg: #2f334d;
+--mat-second: #2f334d;
+--mat-disabled: #828bb8;
+--mat-contrast: #191a2a;
+--mat-dbg: #191a2a;
+--mat-active: #2f334d;
+--mat-border: #222436;
+--mat-hl: #444a73;
+--mat-tree: #444a7370;
+--mat-notif: #191a2a;
+--mat-excluded: #2f334d;
+--mat-excl: #2f334d;
+--mat-yellow: #ffdb8e;
+--mat-attribute: #ffbd76;
+--mat-green: #7af8ca;
+--mat-string: #7af8ca;
+--mat-cyan: #34d3fb;
+--mat-operator: #baacff;
+--mat-blue: #70b0ff;
+--mat-function: #70b0ff;
+--mat-purple: #baacff;
+--mat-keyword: #baacff;
+--mat-class: #ffbd76;
+--mat-red: #f3c1ff;
+--mat-tag: #ff757f;
+--mat-red2: #ff5370;
+--mat-error: #ff5370;
+--mat-orange: #ff9668;
+--mat-number: #ff9668;
+--mat-orange2: #ff9668;
+--mat-parameter: #f3c1ff;
+--mat-gray: #7e8eda;
+--mat-comment: #7e8eda;
+--mat-silver: #c8d3f5;
+--mat-variable: #c8d3f5;
+--mat-black: #c8d3f5;
+
+EOT;
+
+
+  SynthWave '84 "SynthWave '84" <<<EOT
+
+--mat-primary: #78DCE8;
+--mat-primaryT: #78DCE890;
+--mat-accent: #f92aad;
+--mat-link: #ff7edb;
+--mat-accentT: #f92aad90;
+--mat-accent2: #ff7edb;
+--mat-accent2T: #ff7edb90;
+--mat-bg: #2a2139;
+--mat-fg: #ffffff;
+--mat-text: #999999;
+--mat-selectBg: #463465;
+--mat-selBg: #463465;
+--mat-selectFg: #FFFFFF;
+--mat-selFg: #FFFFFF;
+--mat-button: #382C4D;
+--mat-secondBg: #2a2139;
+--mat-lbg: #2a2139;
+--mat-second: #2a2139;
+--mat-disabled: #848bbd;
+--mat-contrast: #241b2f;
+--mat-dbg: #241b2f;
+--mat-active: #34294f;
+--mat-border: #34294f;
+--mat-hl: #463564;
+--mat-tree: #42384b70;
+--mat-notif: #191621;
+--mat-excluded: #463564;
+--mat-excl: #463564;
+--mat-yellow: #fede5d;
+--mat-attribute: #fede5d;
+--mat-green: #72f1b8;
+--mat-string: #ff8b39;
+--mat-cyan: #36f9f6;
+--mat-operator: #fede5d;
+--mat-blue: #34d3fb;
+--mat-function: #36f9f6;
+--mat-purple: #ff7edb;
+--mat-keyword: #fede5d;
+--mat-class: #f92aad;
+--mat-red: #fe4450;
+--mat-tag: #72f1b8;
+--mat-red2: #fe4450;
+--mat-error: #fe4450;
+--mat-orange: #f97e72;
+--mat-number: #f97e72;
+--mat-orange2: #f97e72;
+--mat-parameter: #ff7edb;
+--mat-gray: #848bbd;
+--mat-comment: #848bbd;
+--mat-silver: #b6b1b1;
+--mat-variable: #b6b1b1;
+--mat-black: #ffffff;
+
+EOT;
+
+
+}
+==/UserStyle== */
+
+:root {
+  /*[[theme]]*/
+}
+
+:root {
+  --mat-font: /*[[font-family]]*/, sans-serif;
+}
+
+:root {
+  --mat-mono: /*[[mono-font]]*/, monospace;
+}
+
+@-moz-document regexp("http://.*") {
+
+}
