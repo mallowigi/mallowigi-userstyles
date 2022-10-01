@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "generate": "node app.js"
+    "generate": "node src/main/resources/themes/generate.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/mallowigi/material-theme-ui-lite#readme",
   "devDependencies": {
-    "yaml": "2.1.1"
+    "yaml": "2.1.1",
+    "handlebars": "^4.7.7"
   }
 }
